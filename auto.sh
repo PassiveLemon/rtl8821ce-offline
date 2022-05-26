@@ -6,9 +6,7 @@ if [ `whoami` = root ]; then
 fi
 
 echo "Installing dependencies"
-cd dependencies
 sudo dpkg -i dependencies/item*.deb
-cd ..
 echo "Dependencies installed"
 echo "Repairing packages..."
 sudo apt --fix-broken install
