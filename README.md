@@ -5,5 +5,5 @@ Package to install the Realtek RTL8821CE driver offline. Comes with dependencies
 Only tested on Debian 11 minimal install </br>
 
 Install: </br>
-Run auto.sh. </br>
- - If needed, run dependencies.sh first, (you might need to repair packages after) and then run driver.sh. </br>
+ - Run auto.sh. </br>
+    - If needed, run dependencies.sh first, (you might need to repair packages after) and then run driver.sh. </br>
